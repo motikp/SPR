@@ -1,0 +1,55 @@
+{
+    "id": "wh_7f18c2b90892652fe7ff2cb7d0537732",
+    "type": "PAYMENT_COMPLETED",
+    "data": {
+        "id": "payment_d4fbfe943226bdd14ff35bf3f5d39107",
+        "fee": 0,
+        "paid": true,
+        "order": null,
+        "amount": 10000,
+        "status": "CLO",
+
+//      ...      
+      
+        "captured": true,
+
+//      ...      
+      
+        "created_at": "1551173291",
+
+//      ...      
+      
+        "instructions": [
+            {
+                "name": "instructions",
+                "steps": [
+                    {
+                        "step1": "Direct the end-user to make payment to the CLABE provided."
+                    }
+                ]
+            }
+        ],
+
+//      ...      
+      
+        "currency_code": "MXN",
+
+//      ...      
+    
+        "customer_token": "cus_b4d4d442f32ae24ed9616753573ea755",
+        "payment_method": "other_52f165b04eb609f40559f612ed683245",
+
+//      ...      
+      
+        "original_amount": 10000,
+
+//      ...      
+   
+        "payment_method_type_category": "bank_transfer"
+    },
+
+//      ...      
+       
+    "status": "CLO",
+    "created_at": 1594033690
+}
