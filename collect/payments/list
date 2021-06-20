@@ -1,0 +1,48 @@
+// Request URL: GET https://sandboxapi.rapyd.net/v1/payment_methods/country?country=MX&currency=MXN
+
+// Message body absent
+
+{
+    "status": {
+        "error_code": "",
+        "status": "SUCCESS",
+        "message": "",
+        "response_code": "",
+        "operation_id": "8065d391-d324-41cb-8b36-a7d97bd0ed6c"
+    },
+    "data": [{
+            "type": "mx_spei_bank",
+            "name": "SPEI Bank",
+            "category": "bank_transfer",
+            "image": "https://iconslib.rapyd.net/checkout/mx_spei_bank.png",
+            "country": "mx",
+            "payment_flow_type": "bank_transfer",
+            "currencies": [
+                "MXN"
+            ],
+            "status": 1,
+            "is_cancelable": false,
+            "payment_options": [{
+                    "name": "customer",
+                    "type": "customer",
+                    "regex": "",
+                    "description": "make sure a customer was created with first_name, last_name, email and address",
+                    "is_required": true,
+                    "is_updatable": false
+                }, {
+                    "name": "ewallet",
+                    "type": "string",
+                    "regex": "",
+                    "description": "make sure to pass an ewallet",
+                    "is_required": false,
+                    "is_updatable": false
+                }
+            ],
+            "is_expirable": false,
+            "is_online": false,
+            "minimum_expiration_seconds": null,
+            "maximum_expiration_seconds": null
+        }
+    ]
+}
+
